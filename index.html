@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="diseño/diseño.css">
+</head>
+<body>
+    <h1>Cuadricula</h1>
+    <div><button class="botonlin">Primera Linea</button></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <br>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <br>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <br>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <br>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro"></div>
+    <div class="cuadro""></div>
+</body>
+</html>
+
+<script>
+        // $(document).ready(function ()
+        // {
+        //     alert("alerta maxima");
+        //     $(document).click(function ()
+        // {
+        //     alert("has dado clic");
+        // });
+        // });
+        // $
+        $(".botonlin").css({"height": "90px","width": "90px","border": "10px","display":"inline-block","margin-left": "30px"})
+        $(".botonlin").click(function()
+        {
+            $(".cuadro:nth-child(6)").css({"background-color":"blue"})
+        })
+    </script>
